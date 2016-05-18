@@ -180,3 +180,57 @@ img{
 		margin: 0 0 5px 0;
 	}
 }
+
+@media screen and (max-width: 768px) {
+  header hgroup h1 {
+    font-size: 36px !important;
+    padding: 0 30px !important;
+    line-height: 42px !important;
+    font-weight: 300 !important;
+  }
+  header hgroup h2 {
+    padding: 0 30px !important;
+    line-height: 24px !important;
+    font-weight: 500 !important;
+  }
+  #content img {
+    padding: 0;
+  }
+}
+
+
+
+
+
+img {
+  padding: 0;
+}
+
+.brand-header {
+  width: 100%;
+  display: block;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: none;
+  text-align: center;
+}
+.brand-header img {
+  max-height: 25px;
+  vertical-align: middle;
+}
+.brand-header img+img {
+  margin: 10px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .brand-header {
+    height: 45px;
+  }
+  .brand-header img {
+    max-width: 200px;
+  }
+  .brand-header img+img {
+    margin: 0 0 0 20px;
+  }
+}
