@@ -105,3 +105,78 @@ border-radius: 5px 5px 0 0;
 #container section div#content.left ul li p {
     margin-bottom: 7px;
 }
+
+li{
+	list-style: none !important;
+}
+
+li h3{
+	margin-top: 25px;
+	font-weight:normal;
+	font-size: 25px!important;
+	line-height:1.2em;
+}
+
+li+li em{
+	display: list-item;
+	font-style: normal;
+	margin-left:30px;
+	list-style-type:disc;
+	padding-left:10px;
+}
+
+img{
+	border-radius: 5px !important;
+}
+
+.wrapper{
+	overflow: visible !important;
+}
+
+#conversion-form {
+  transition: height .4s;
+}
+.hidden {
+  display: none;
+}
+.next_button {
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2em;
+  margin: 2px auto 24px auto;
+  padding: 15px 20px 17px 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #f7f7f7 !important;
+  background-color: #f7723d;
+  display: block;
+}
+
+@media (min-width:908px){
+	.social-proof{
+		background: url('https://s3.amazonaws.com/rd-marketing-objects/growth-experiments/lp-social-proof/splash.svg') no-repeat;
+		position: absolute;
+		top: -20px;
+		right: -30px;
+		display: block;
+		width: 90px;
+		height: 90px;
+		overflow: hidden;
+		text-align: center;
+		padding: 35px 0 0 0;
+	}
+	.social-proof p{
+		color: #fff !important;
+		font-size: 9px !important;
+		text-transform: uppercase;
+	}
+	.social-proof p strong{
+		display: block;
+		font-weight: 700;
+		font-size: 18px;
+		margin: 0 0 5px 0;
+	}
+}
